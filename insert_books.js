@@ -165,6 +165,7 @@ async function insertBooks() {
     insertedBooks.forEach((book, index) => {
       console.log(`${index + 1}. "${book.title}" by ${book.author} (${book.published_year})`);
     });
+  
 
   } catch (err) {
     console.error('Error occurred:', err);
@@ -174,6 +175,7 @@ async function insertBooks() {
     console.log('Connection closed');
   }
 }
+
 
 // Run the function
 insertBooks().catch(console.error);

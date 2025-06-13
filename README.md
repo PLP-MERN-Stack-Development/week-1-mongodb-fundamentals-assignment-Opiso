@@ -45,3 +45,13 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+
+# PLP Bookstore MongoDB Project
+
+## How to Run
+
+### Insert Book Data
+Run this script in your terminal:
+```bash
+mongosh queries.js
